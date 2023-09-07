@@ -9,59 +9,106 @@
 <body>
     <header>
         <h1>MuzakMaker</h1>
-        <h2>Smooth Jazz</h2>
-        <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</p>
-    
-    <nav>
-        <ul>
-            <li>MuzakMaker</li>
-            <li>Trending Songs</li>
-            <li>Your playlists</li>
-            <li>Curated Playlists</li>
-            <li><img src="images/duke-silver.png" alt=""></li>
-        </ul>
-        
-    </nav>
+            <h2>Smooth Jazz</h2>
+            <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</p>
+        <nav>
+            <ul>
+                <li><a href="#home">MuzakMaker</a></li>
+                <li><a href="#trending">Trending <br /> Songs</a></li>
+                <li><a href="#playlist">Your <br /> playlists</a></li>
+                <li><a href="#curated">Curated <br />Playlists</a></li>
+                <li><a href="user"><img src="images/duke-silver.png" alt="Duke Silver"></a></li>
+            </ul>
+        </nav>
     </header>
+
+    <main>
 
     <section id="trending">
         <h2>Trending Songs</h2>
-        <h3>Aloma</h3>
-        <p>Artist Cali</p>
-        <img src="images/aloma-cover.png" alt="Aloma Album Cover">
-        <audio controls>
-            <source src="audio/aloma.mp3" type="audio/mpeg">
-        </audio>
+        <div class="scroll">
 
-        <h3>My Road</h3>
-        <p>Artist Nesterouk</p>
-        <img src="images/my-road-cover.png" alt="My Road Album Cover">
-        <audio controls>
-            <source src="audio/my-road.mp3" type="audio/mpeg">
-        </audio>
+            <section>
+                <div>
+                <h3>Aloma</h3>
+                    <dl>
+                        <dd>Artist</dd> 
+                        <dd>Cali</dd>
+                    </dl>
+                </div>
+                <img src="images/aloma-cover.png" alt="Aloma Album Cover">
+                <audio 
+                    controls
+                    src="audio/aloma.mp3">
+                    Your browser does not support the <code>audio</code> element.
+                </audio>
+            </section>
 
-        <h3>Papaya</h3>
-        <p>Artist Dredstudio</p>
-        <img src="images/papaya-cover.png" alt="Papaya Album Cover">
-        <audio controls>
-            <source src="audio/papaya.mp3" type="audio/mpeg">
-        </audio>
+            <section>
+                <div>
+                <h3>My Road</h3>
+                    <dl>
+                        <dd>Artist</dd>
+                        <dd>Nesterouk</dd>
+                    </dl>
+                </div>
+                <img src="images/my-road-cover.png" alt="My Road Album Cover">
+                <audio 
+                    controls
+                    src="audio/my-road.mp3">
+                    Your browser does not support the <code>audio</code> element.
+                </audio>
+            </section>
 
-        <h3>Smoothies</h3>
-        <p>Artist Black Rhomb</p>
-        <img src="images/smoothies-cover.png" alt="Smoothies Album Cover">
-        <audio controls>
-            <source src="audio/smoothies.mp3" type="audio/mpeg">
-        </audio>
+            <section>
+                <div>
+                    <h3>Papaya</h3>
+                        <dl>
+                            <dd>Artist</dd>
+                            <dd>Dredstudio</dd>
+                        </dl>
+                </div>
+                <img src="images/papaya-cover.png" alt="Papaya Album Cover">
+                <audio 
+                    controls
+                    src="audio/papaya.mp3">
+                    Your browser does not support the <code>audio</code> element.
+                </audio>
+            </section>
 
-        <h3>Successful Performance</h3>
-        <p>Artist Ricky Bombino</p>
-        <img src="images/successful-performance-cover.png" alt="Successful Performance Album Cover">
-        <audio controls>
-            <source src="audio/successful-performance.mp3" type="audio/mpeg">
-        </audio>
+            <section>
+                <div>
+                <h3>Smoothies</h3>
+                    <dl>
+                        <dd>Artist</dd> 
+                        <dd>Black Rhomb</dd>
+                    </dl>
+                </div>
+                <img src="images/smoothies-cover.png" alt="Smoothies Album Cover">
+                <audio
+                    controls
+                    src="audio/smoothies.mp3">
+                    Your browser does not support the <code>audio</code> element.
+                </audio>
+            </section>
 
-        <p>More trending</p>
+            <section>
+                <div>
+                <h3>Successful Performance</h3>
+                    <dd>
+                        <dd>Artist</dd>
+                        <dd>Ricky Bombino</dd>
+                    </dd>
+                </div>
+                <img src="images/successful-performance-cover.png" alt="Successful Performance Album Cover">
+                <audio 
+                    controls
+                    src="audio/successful-performance.mp3" type="audio/mpeg">
+                </audio>
+            </section>
+        </div>
+            <p>More trending</p>
+        
     </section>
 
     <section id="playlist">
@@ -93,7 +140,9 @@
 
 
         <p>All your playlists</p>
-
+    </section>
+    
+    <section id="curated">
         <h2>Curated Playlists</h2>
         <img src="images/boozy-brunch-cover.png" alt="Boozy brunch album cover">
         <h3>Boozy Brunch</h3>
