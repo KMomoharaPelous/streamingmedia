@@ -145,6 +145,9 @@ table {
         position: absolute;
         top: 251px;
         background-color: #ffffff;
+        padding: 5px;
+        height: 50px;
+        width: 350px;
     }
 }
 
